@@ -1,0 +1,32 @@
+{
+  "name": "emotion-grid",
+  "version": "0.0.1",
+  "description": "A simple flexbox set of react components written with http://emotion.sh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js",
+    "flow": "flow"
+  },
+  "keywords": ["React", "Grid", "Flexbox", "Emotion", "Styled"],
+  "author": "Matias Hernandez <matiasfh@gmail.com> (http://matiashernandez.me)",
+  "license": "ISC",
+  "dependencies": {
+    "emotion": "^8.0.11",
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-emotion": "^8.0.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-emotion": "^8.0.11",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "flow-bin": "^0.59.0",
+    "rollup": "^0.52.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-closure-compiler-js": "^1.0.6",
+    "rollup-plugin-flow": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}
