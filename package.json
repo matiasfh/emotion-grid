@@ -1,23 +1,15 @@
 {
   "name": "emotion-grid",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A simple flexbox set of react components written with http://emotion.sh",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js",
-    "flow": "flow",
-    "install": "npm run build"
+    "flow": "flow"
   },
-  "keywords": [
-    "React",
-    "Grid",
-    "Flexbox",
-    "Emotion",
-    "Styled"
-  ],
+  "keywords": ["React", "Grid", "Flexbox", "Emotion", "Styled"],
   "author": "Matias Hernandez <matiasfh@gmail.com> (http://matiashernandez.me)",
   "license": "ISC",
   "repository": "https://github.com/matiasfh/emotion-grid",
