@@ -2,11 +2,14 @@
   "name": "emotion-grid",
   "version": "0.0.1",
   "description": "A simple flexbox set of react components written with http://emotion.sh",
-  "main": "index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config rollup.config.js",
-    "flow": "flow"
+    "flow": "flow",
+    "install": "npm run build"
   },
   "keywords": [
     "React",
